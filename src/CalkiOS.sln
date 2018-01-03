@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalkiOS", "CalkiOS\CalkiOS.csproj", "{D142722A-11FC-4B2C-ADF7-3039F379A72E}"
+EndProject
+Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "CalkiOS", "CalkiOS\CalkiOSBoot.Cosmos", "{FD4ED6FE-DBFD-427C-9786-EE15528E3E55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalkiOSEmu", "CalkiOSEmu\CalkiOSEmu.csproj", "{07072268-4D5C-4803-9851-A08B5623FC5A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CalkiOS.Common", "CalkiOS.Common\CalkiOS.Common.shproj", "{F4B605F7-CBD2-4D40-8552-AA51E52FD866}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CalkiOS.BASIC", "CalkiOS.BASIC\CalkiOS.BASIC.shproj", "{7B6073E8-F8E7-45BD-A6C1-E6ED4CDE1329}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CalkiOS.BASIC\CalkiOS.BASIC.projitems*{7b6073e8-f8e7-45bd-a6c1-e6ed4cde1329}*SharedItemsImports = 13
+		CalkiOS.Common\CalkiOS.Common.projitems*{f4b605f7-cbd2-4d40-8552-aa51e52fd866}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D142722A-11FC-4B2C-ADF7-3039F379A72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D142722A-11FC-4B2C-ADF7-3039F379A72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D142722A-11FC-4B2C-ADF7-3039F379A72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D142722A-11FC-4B2C-ADF7-3039F379A72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4ED6FE-DBFD-427C-9786-EE15528E3E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4ED6FE-DBFD-427C-9786-EE15528E3E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4ED6FE-DBFD-427C-9786-EE15528E3E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4ED6FE-DBFD-427C-9786-EE15528E3E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07072268-4D5C-4803-9851-A08B5623FC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07072268-4D5C-4803-9851-A08B5623FC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07072268-4D5C-4803-9851-A08B5623FC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07072268-4D5C-4803-9851-A08B5623FC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F41A04F3-3A1A-4ECE-B929-6A077B6C527A}
+	EndGlobalSection
+EndGlobal
