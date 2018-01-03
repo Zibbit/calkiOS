@@ -1,0 +1,5 @@
+
+﻿extensions: designer.cs generated.cs
+extensions: .cs .c .cpp .h
+// This project licenses this file to you under the Unlicense.
+// See the LICENSE file in the project root for more information.
