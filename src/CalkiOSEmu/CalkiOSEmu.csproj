@@ -1,0 +1,27 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RuntimeIdentifiers>win10-x64;osx.10.11-x64,linux-x64</RuntimeIdentifiers>
+    <StartupObject>CalkiOSEmu.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;PAWOS_EMU</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;PAWOS_EMU</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\CalkiOS.Common\CalkiOS.Common.projitems" Label="Shared" />
+
+  <Import Project="..\CalkiOS.BASIC\CalkiOS.BASIC.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="Sprache" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
