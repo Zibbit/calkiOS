@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.Net.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <ProjectGuid>{d142722a-11fc-4b2c-adf7-3039f379a72e}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;PAWOS</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;PAWOS</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CalkiOSBoot.Cosmos" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Cosmos.Debug.Kernel" Version="1.0.*" />
+    <PackageReference Include="Cosmos.System" Version="1.0.*" />
+    <PackageReference Include="Sprache" Version="2.1.0" />
+  </ItemGroup>
+  
+  <Import Project="..\CalkiOS.Common\CalkiOS.Common.projitems" Label="Shared" />
+
+</Project>
