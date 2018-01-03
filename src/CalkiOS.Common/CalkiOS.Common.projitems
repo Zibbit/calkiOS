@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f4b605f7-cbd2-4d40-8552-aa51e52fd866</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CalkiOS.Common</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Apps\AppBASIC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Apps\AppGuessing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Apps\AppLanj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Apps\IApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OSCmds.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OSCompat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OSShell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OSUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)CalkiOS.Common.licenseheader" />
+  </ItemGroup>
+</Project>
